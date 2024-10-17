@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 // import the PdfViewer Module for the PDF Viewer component
-import { PdfViewerComponent } from '@syncfusion/ej2-angular-pdfviewer';
+import { PdfViewerModule } from '@syncfusion/ej2-angular-pdfviewer';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule, PdfViewerComponent
+    BrowserModule, PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
