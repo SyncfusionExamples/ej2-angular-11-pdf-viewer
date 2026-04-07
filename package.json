@@ -11,23 +11,23 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^20.3.18",
-    "@angular/common": "^20.3.18",
-    "@angular/compiler": "^20.3.18",
-    "@angular/core": "^20.3.18",
-    "@angular/forms": "^20.3.18",
-    "@angular/platform-browser": "^20.3.18",
-    "@angular/platform-browser-dynamic": "^20.3.18",
-    "@angular/router": "^20.3.18",
-    "@syncfusion/ej2-angular-pdfviewer": "^26.1.35",
+    "@angular/animations": "^21.2.7",
+    "@angular/common": "^21.2.7",
+    "@angular/compiler": "^21.2.7",
+    "@angular/core": "^21.2.7",
+    "@angular/forms": "^21.2.7",
+    "@angular/platform-browser": "^21.2.7",
+    "@angular/platform-browser-dynamic": "^21.2.7",
+    "@angular/router": "^21.2.7",
+    "@syncfusion/ej2-angular-pdfviewer": "^31.1.17",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.15.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^20.3.22",
-    "@angular/cli": "^20.3.22",
-    "@angular/compiler-cli": "^20.3.18",
+    "@angular-devkit/build-angular": "^21.2.6",
+    "@angular/cli": "^21.2.6",
+    "@angular/compiler-cli": "^21.2.7",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
@@ -41,6 +41,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~5.8.3"
+    "typescript": "~5.9.3"
   }
 }
