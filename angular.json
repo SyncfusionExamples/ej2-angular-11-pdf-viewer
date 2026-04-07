@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular11PDF-Viewer:build"
+            "buildTarget": "angular11PDF-Viewer:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular11PDF-Viewer:build:production"
+              "buildTarget": "angular11PDF-Viewer:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular11PDF-Viewer:build"
+            "buildTarget": "angular11PDF-Viewer:build"
           }
         },
         "test": {
