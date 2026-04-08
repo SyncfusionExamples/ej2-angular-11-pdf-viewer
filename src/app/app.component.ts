@@ -10,7 +10,8 @@ import {
   <ejs-pdfviewer id="pdfViewer" [serviceUrl]='service' [documentPath]='document' style="height:640px;display:block"></ejs-pdfviewer>
 </div>`,
 providers: [LinkAnnotationService, BookmarkViewService, MagnificationService,
-  ThumbnailViewService, ToolbarService, NavigationService, AnnotationService, TextSearchService, TextSelectionService,PrintService] 
+  ThumbnailViewService, ToolbarService, NavigationService, AnnotationService, TextSearchService, TextSelectionService, PrintService],
+    standalone: false
 })
 export class AppComponent implements OnInit {
   title = 'angular11PDF-Viewer';
